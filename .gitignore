@@ -33,8 +33,6 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Environment files
-.env
-.env.*
 !.env.example
 
 # Local-only files
@@ -43,7 +41,6 @@ lerna-debug.log*
 # Editor / OS artifacts
 .DS_Store
 Thumbs.db
-.vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
 .idea/
@@ -69,3 +66,7 @@ packages/*
 # Load-test secrets and generated results
 load-tests/fixtures/generated.json
 load-results/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
